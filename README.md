@@ -30,9 +30,9 @@ The concert data also includes the following information on each of the performe
 - Repertoire focus of the performing ensemble
 
 ## Data Files
-The data is provided in this repository as two tab-separated UTF8 text files:
-- amca_dataset_content-items_20200308.txt
-- amca_dataset_performer_20200308.txt
+The data is provided in this repository as two tab-separated, gzip compressed, UTF8 text files:
+- [amca_dataset_content-items_20200308.tar.gz](amca_dataset_content-items_20200308.tar.gz)
+- [amca_dataset_performer_20200308.tar.gz](amca_dataset_performer_20200308.tar.gz)
 
 A header row in each file includes field names corresponding to the data dictionaries detailed below.
 
@@ -40,7 +40,7 @@ A header row in each file includes field names corresponding to the data diction
 ### #1 Content Items
 Each row represents a content item featured on one of the three platforms
 
-**Filename**: amca_dataset_content-items_20200308.tar.gz
+**Filename**: [amca_dataset_content-items_20200308.tar.gz](amca_dataset_content-items_20200308.tar.gz)
 
 **Records**: 982,182
 
@@ -72,7 +72,7 @@ spotify_track_id | Text | The Spotify track identify for the content item work. 
 ### #2 Performers
 Each row represents a content item featured on one of the three platforms
 
-**Filename**: amca_dataset_performers_20200308.tar.gz
+**Filename**: [amca_dataset_performers_20200308.tar.gz](amca_dataset_performers_20200308.tar.gz)
 
 **Records**: 34,908
 
