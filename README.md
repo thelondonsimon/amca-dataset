@@ -32,7 +32,7 @@ The concert data also includes the following information on each of the performe
 ## Data Files
 The data is provided in this repository as two tab-separated, gzip compressed, UTF8 text files:
 - [amca_dataset_content-items_20200308.tar.gz](amca_dataset_content-items_20200308.tar.gz)
-- [amca_dataset_performer_20200308.tar.gz](amca_dataset_performer_20200308.tar.gz)
+- [amca_dataset_performers_20200308.tar.gz](amca_dataset_performers_20200308.tar.gz)
 
 A header row in each file includes field names corresponding to the data dictionaries detailed below.
 
