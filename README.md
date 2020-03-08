@@ -1,7 +1,7 @@
 # Art Music Curation in Australia Dataset
 
 This dataset contains comprehensive logs, comprising 982,182 records of music presented on three platforms:
-- **ABC Classic FM radio broadcasts** (1998-2018)
+- **ABC Classic FM radio broadcasts** (1996-2018)
 - **Concert events catalogued by the Australian Music Centre** (2009-2018)
 - **Classical genre Spotify playlists entries** (Jan - May 2018)
 
@@ -28,6 +28,22 @@ The concert data also includes the following information on each of the performe
 - Year of birth
 - Size of the performing ensemble
 - Repertoire focus of the performing ensemble
+
+## Data Collection
+### ABC Classic FM
+916,906 broadcast records were harvested from ABC Classic FM's published music listings from 1 January 1996 through to 1 November 2018. Each record comprises an individual broadcast of a work on the network.
+
+The listings were compiled from various unstructured HTML and semi-structured XML formats which were previously published on the ABC Classic FM website. The data was parsed, transformed and supplemented with additional composer-level variables.
+
+### Concert Event Data
+21,939 records were harvested from the Australian Music Centre's (AMC) calendar of events. Each record comprises an individual composer being featured in a public concert event. Each event catalogued by the AMC includes at least one work by an Australian composer. The dataset also includes records on each of the performers responsible for presenting the works in each event.
+
+The data was compiled from an extract provided from the AMC's internal database. The data was transformed and supplemented with additional composer-level variables.
+
+### Spotify Playlist Data
+43,337 records were harvested from Spotify playlists. Each record comprises an individual work featured on a playlist available on Spotify's digital streaming service. The data was harvested from 34 classical genre playlists over the date range of 1 January 2018 to 31 May 2018. A list of the playlists and the criteria for their inclusion is [listed separately](spotify_playlists.md).
+
+The data was compiled using the Spotify API. The data was transformed and supplemented with additional composer-level variables.
 
 ## Data Files
 The data is provided in this repository as two tab-separated, gzip compressed, UTF8 text files:
