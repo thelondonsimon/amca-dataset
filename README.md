@@ -70,8 +70,8 @@ context | Text | The context in which the content item was featured. For radio b
 date | Date | The date on which the context item was presented. For radio broadcasts, this reflects the broadcast date. For playlist entries it is the date the version of the playlist was published. For concerts it is the year in which the concert program was presented.
 time | Time | The time of day at which the context item was presented.
 duration | Integer | The duration of the content item in seconds.
-raw_composer | Text | The name of the composer of the content item, as it appeared in the raw data source and before matching to a canonical entry.
-composer | Text | The canonical name of the composer of the content item, after matching to authoritative data
+raw_composer | Text | The name of the composer of the content item, as it appeared in the raw data source and before matching to an authoritative entry.
+composer | Text | The authoritative name of the composer of the content item, after matching to authority data
 yob | Integer | Year of birth of the composer of the content item.
 gender | Text | Gender of the composer of the content item.
 place | Text | Place where the composer of the content item was principally active.
